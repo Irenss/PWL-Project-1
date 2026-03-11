@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'koneksi.php';
 
 $id = $_GET['id'];
 $sql = "SELECT * FROM barang WHERE id_barang = $id";
